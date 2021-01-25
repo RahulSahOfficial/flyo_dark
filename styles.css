@@ -1,0 +1,537 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+a:link,a:active,a:visited{
+	color:#6A26CD;
+}
+a:hover{
+	color:#431488;
+}
+nav
+{
+	background: #1C2230;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem;
+    font-family: Raleway;
+}
+nav .links a
+{
+	color: #bbbbbb;
+    margin: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 0.2rem;
+    transition: 0.5s;
+}
+nav .links a:hover{
+	color: #f7f7f7;
+    border-bottom: 1px solid white;
+}
+.heroarea
+{
+	text-align: center;
+    color: white;
+    font-family: Raleway;
+    padding: 2rem 25rem 5rem;
+	background: #1C2230;
+	background-image: url(images/bg-curvy-desktop.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.heroarea h1
+{
+	font-size: 2.3rem;
+    margin: 3rem 0;
+}
+.heroarea p
+{
+	font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #d0d0d0;
+}
+.heroarea button
+{
+	padding: 1rem 5rem;
+    color: white;
+    font-size: 1.2rem;
+    background-image: linear-gradient(to right,#4FC4D3,#40AED1);
+    margin: 2rem 0;
+    border: 0;
+    outline: 0;
+    border-radius: 20rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.heroarea button:hover{
+	background: #8CDAE4;
+}
+.features
+{
+	background: #181E2A;
+	padding: 2rem 10rem 5rem;
+	font-family: Raleway;
+}
+.featuresbox
+{
+	display: flex;
+    flex-direction: column;
+}
+.featurecombo
+{
+	margin: 2rem 0;
+	display: flex;
+}
+.eachfeature
+{
+	text-align: center;
+}
+.eachfeature h3
+{
+	margin: 1.5rem 0 1rem;
+	font-size: 1.3rem;
+    color: white;
+    font-weight: 500;
+}
+.eachfeature p
+{
+	margin: 0 auto;
+    width: 65%;
+    font-size: 0.9rem;
+    color: #cccccc;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.description
+{
+	background: #181e2a;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: Raleway;
+    padding: 2rem 4rem 6rem;
+}
+.textpart{
+	padding: 0 4rem;
+}
+.textpart h2
+{
+	font-size: 2.5rem;
+    line-height: 1.5;
+}
+.textpart ul
+{
+	list-style: none;
+	width: 80%;
+    font-size: 1rem;
+    color: #d4d4d4;
+}
+.textpart ul li
+{
+	margin: 1rem 0;
+}
+.description a
+{
+	color: #78bfc3;
+    font-weight: 500;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #78bfc3;
+    transition: 0.2s;
+}
+.description a:hover{
+	filter: grayscale(1);
+}
+.testimonial
+{
+	background: #181e2a;
+    padding: 2rem 5rem 5rem;
+    font-family: Raleway;
+}
+.testimonialcont
+{
+	display: flex;
+}
+.testimonialcont
+{
+	padding: 2rem 0;
+    background-image: url(images/bg-quotes.png);
+    background-repeat: no-repeat;
+}
+.testimonialcont .eachcard
+{
+	background: #21293C;
+	margin: 0 2rem;
+	padding: 2rem;
+	color: white;
+	border-radius: 0.7rem;
+    box-shadow: 10px 10px 20px #1A212B;
+    cursor: pointer;
+}
+.eachcard .review
+{
+	font-size: 1rem;
+    color: #d4d4d4;
+    line-height: 1.3;
+    margin: 0 0 1.5rem;
+    font-weight: 500;
+}
+.eachcard .author
+{
+	display: flex;
+	align-items: center;
+}
+.eachcard .author img
+{
+	width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+        border-radius: 50%;
+    margin-right: 0.8rem;
+}
+.userdet .name
+{
+	font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+.userdet .designation
+{
+	font-size: 0.6rem;
+    color: #bbbbbb;
+}
+.earlyaccess
+{
+	background: #181e2a;
+}
+.earlyaccess .emailform
+{
+	background: #1C2230;
+    width: 60%;
+    margin: 0 auto;
+    padding: 3rem;
+    color: white;
+    text-align: center;
+    font-family: Raleway;
+    transform: translateY(50%);
+    box-shadow: 10px 10px 20px #1313139e;
+    border-radius: 0.5rem;
+}
+.emailform h2
+{
+	margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+.emailform p
+{
+	margin-bottom: 1.5rem;
+    line-height: 1.5;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #ccccce;
+    padding: 0 4rem;
+}
+.emailsumbitbox
+{
+	display: flex;
+	justify-content: center;
+}
+.emailsubmitbox input
+{
+	width: 60%;
+    padding: 1rem;
+    border-radius: 10rem;
+    border: 0;
+    outline: 0;
+    font-size: 1rem;
+    margin: 0 1rem;
+}
+.emailsubmitbox button
+{
+	background-image: linear-gradient(to right,#4DC5D3,#3FADCE);
+    color: white;
+    width: 25%;
+    padding: 1rem;
+    border-radius: 10rem;
+    border: 0;
+    outline: 0;
+    font-size: 1rem;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.emailsubmitbox button:hover{
+	background: #8CDAE4;
+}
+.error
+{
+	float: left;
+    font-size: 0.7rem;
+    color: #F44336;
+    font-weight: 500;
+    margin-left: 10%;
+    margin-top: 0.3rem;
+ 	visibility: hidden;
+}
+footer
+{
+	background: #0C1524;
+	color: white;
+	padding: 12rem 5rem 5rem;
+    font-family: Raleway;
+}
+.footlogo
+{
+	margin-bottom: 2rem;
+}
+.footdetail
+{
+	color: #d6d6d6;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footdetail img
+{
+	margin-right: 1rem;
+}
+.footdetail ul{
+	list-style: none;
+}
+.footdetail ul li{
+	margin-bottom: 0.7rem;
+}
+.footaddress p
+{
+	width: 20rem;
+	display: inline-block;
+    vertical-align: top;
+}
+.footlink
+{
+	font-weight: 500;
+    display: flex;
+    font-size: 1.1rem;
+}
+.footlink ul
+{
+	margin: 0 1rem;
+}
+.footlink ul li
+{
+	cursor: pointer;
+}
+.footsocial ul
+{
+	display: flex;
+}
+.footsocial ul li{
+	margin: 0 0.5rem
+}
+.footsocial img
+{
+	width: 2rem;
+    opacity: 0.5;
+    margin-right: 0;
+    transition: 0.4s;
+}
+.footsocial img:hover
+{
+    opacity: 1;
+    transform: scale(1.2);
+}
+.madeby
+{
+	background: #0c1524;
+    color: white;
+    font-family: Raleway;
+    font-size: 0.9rem;
+    padding: 1rem;
+}
+.madeby p
+{
+	text-align: right;
+    line-height: 1.5;
+}
+.madeby p a
+{
+	color: white;
+    font-weight: 500;
+}
+@media only screen and (max-width: 1400px)
+{
+	.heroarea 
+	{
+		padding: 2rem 10rem 5rem;
+	}
+}
+
+@media only screen and (max-width: 1300px)
+{
+	.heroarea 
+	{
+		padding: 2rem 5rem 5rem;
+	}
+	.description
+	{
+		flex-direction: column;
+	}
+	.testimonialcont{
+		flex-direction: column;
+	}
+	.testimonialcont .eachcard{
+		margin: 2rem;
+	}
+
+}
+@media only screen and (max-width: 900px)
+{
+	.heroarea 
+	{
+		padding: 2rem 0rem 5rem;
+	}
+
+}
+@media only screen and (max-width: 700px)
+{
+	nav
+	{
+		padding: 2rem;
+	}
+	.heroarea img
+	{
+		width: 75%;
+	}
+	.features
+	{
+		padding: 2rem 2rem 5rem;
+	}
+	.featurecombo
+	{
+		flex-direction: column;
+		margin:0;
+	}
+	.eachfeature
+	{
+		margin:2rem 0;
+	}
+	.description
+	{
+    	padding: 2rem;
+	}
+	.description .heroimg
+	{
+		width: 80%;
+	}
+	.description .textpart{
+		padding: 2rem;
+	}
+	.testimonial
+	{
+		padding: 2rem;
+	}
+	.earlyaccess .emailform{
+		width: 80%;
+	}
+	.emailform p
+	{
+		padding: 0 1rem;
+	}
+	.emailsubmitbox
+	{
+		display: flex;
+    	flex-direction: column;
+    	align-items: center;
+	}
+	.emailsubmitbox input{
+		margin-bottom: 1rem;
+    	width: 80%;
+	}
+	.emailsubmitbox button{
+		width: 80%
+	}
+	footer
+	{
+		padding: 15rem 2rem 2rem;
+	}
+	.footdetail
+	{
+		flex-direction: column;
+	}
+	.footlink
+	{
+		flex-direction: column;
+	}
+	.footlink ul
+	{
+		margin: 1.5rem 0rem;
+	}
+	.footdetail div
+	{
+		margin: 0.5rem 0;
+	}
+	.footsocial
+	{
+		display: flex;
+    	justify-content: center;
+	}
+	.error
+	{
+		margin-left: 0;
+	}
+}
+@media only screen and (max-width: 500px)
+{
+	nav{
+		padding: 1rem;
+	}
+	nav img
+	{
+		width: 5rem;
+	}
+	nav .links a{
+		margin: 0.5rem;
+    	font-size: 0.9rem;
+	}
+	.textpart ul
+	{
+		width: 100%;
+	}
+	.heroarea
+	{
+		background-image: url(images/bg-curvy-mobile.svg);
+	}
+	.heroarea h1
+	{
+		font-size: 2rem;
+	}
+	.description
+	{
+		padding: 1rem;
+	}
+	.description .heroimg
+	{
+		width: 100%;
+	}
+	.description .textpart
+	{
+		padding: 1rem;
+	}
+	.textpart h2{
+		font-size: 1.3rem;
+	}
+	.testimonialcont .eachcard
+	{
+		margin: 2rem 0;
+	}
+	.earlyaccess .emailform
+	{
+		width: 90%;
+    padding: 1rem;
+	}
+}
